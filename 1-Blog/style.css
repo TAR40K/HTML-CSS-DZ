@@ -1,6 +1,7 @@
 body {
   background-color: #374151;
   color: #ffffff;
+  margin: 0;
 }
 
 ul a {
@@ -9,6 +10,61 @@ ul a {
   font-weight: 400;
   text-decoration: none;
   color: #ffffff;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  padding: 81px 192px;
+}
+
+.info {
+  margin: 0 0 14px 0;
+}
+
+main > p {
+  font-size: 14px;
+  opacity: 60%;
+}
+
+p {
+  margin: 0 0 30px 0;
+}
+
+input {
+  width: 224px;
+  height: 40px;
+  border-radius: 100px;
+  padding-left: 10px;
+  border-style: none;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 38px;
+  margin: 0 0 30px 0;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+}
+
+section {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+footer {
+  font-size: 16px;
+  opacity: 60%;
+  margin: 100px 0 0 0;
 }
 
 .profile {
@@ -26,15 +82,8 @@ ul a {
   font-size: 16px;
 }
 
-main > p {
-  font-size: 14px;
-  opacity: 60%;
-}
-
-h1 {
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 38px;
+#heroPoster {
+  margin: 0 0 69px 0;
 }
 
 .nataly {
@@ -42,23 +91,15 @@ h1 {
   line-height: 28px;
 }
 
+.devNat {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
 .develop {
   font-size: 14px;
   line-height: 28px;
   opacity: 60%;
-}
-
-h2 {
-  font-size: 20px;
-  font-weight: 400;
-}
-
-section {
-  font-size: 16px;
-  font-weight: 400;
-}
-
-footer {
-  font-size: 16px;
-  opacity: 60%;
+  margin: 0 0 28px 0;
 }
