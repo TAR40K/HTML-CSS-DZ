@@ -2,6 +2,9 @@ body {
   background-color: #374151;
   color: #ffffff;
   margin: 0;
+  line-height: 100%;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
 }
 
 ul a {
@@ -19,14 +22,11 @@ nav ul {
 }
 
 nav {
-  padding: 81px 192px;
+  padding: 71px 180px;
 }
 
-.info {
+span {
   margin: 0 0 14px 0;
-}
-
-main > p {
   font-size: 14px;
   opacity: 60%;
 }
