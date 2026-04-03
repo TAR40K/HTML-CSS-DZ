@@ -1,0 +1,105 @@
+body {
+  background-color: #374151;
+  color: #ffffff;
+  margin: 0;
+  line-height: 100%;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+
+ul a {
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 400;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  padding: 71px 180px;
+}
+
+span {
+  margin: 0 0 14px 0;
+  font-size: 14px;
+  opacity: 60%;
+}
+
+p {
+  margin: 0 0 30px 0;
+}
+
+input {
+  width: 224px;
+  height: 40px;
+  border-radius: 100px;
+  padding-left: 10px;
+  border-style: none;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 38px;
+  margin: 0 0 30px 0;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+}
+
+section {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+footer {
+  font-size: 16px;
+  opacity: 60%;
+  margin: 100px 0 0 0;
+}
+
+.profile {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.mainPage {
+  font-size: 18px;
+}
+
+#search {
+  background-color: #1f293799;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+#heroPoster {
+  margin: 0 0 69px 0;
+}
+
+.nataly {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.devNat {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.develop {
+  font-size: 14px;
+  line-height: 28px;
+  opacity: 60%;
+  margin: 0 0 28px 0;
+}
