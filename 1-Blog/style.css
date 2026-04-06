@@ -1,10 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  text-align: center;
+}
+
 body {
-  background-color: #374151;
+  background: linear-gradient(135deg, #374151, #111827);
   color: #ffffff;
   margin: 0;
   line-height: 100%;
   font-weight: 400;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  max-width: 1440px;
+  text-align: center;
 }
 
 ul a {
@@ -19,10 +29,30 @@ nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li:nth-child(2) {
+  margin-left: 11px;
+}
+
+nav ul li:nth-child(3) {
+  margin-left: 77px;
+}
+
+nav ul li:nth-child(4) {
+  margin-left: 52px;
+}
+
+nav ul li:nth-child(5) {
+  margin-left: 39px;
 }
 
 nav {
-  padding: 71px 180px;
+  padding: 72px 180px;
+  display: flex;
 }
 
 span {
@@ -33,13 +63,13 @@ span {
 
 p {
   margin: 0 0 30px 0;
+  font-size: 16px;
 }
 
 input {
   width: 224px;
   height: 40px;
   border-radius: 100px;
-  padding-left: 10px;
   border-style: none;
 }
 
@@ -53,7 +83,16 @@ h1 {
 h2 {
   font-size: 20px;
   font-weight: 400;
-  margin: 0 0 30px 0;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+
+h2,
+p {
+  max-width: 708px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 section {
@@ -70,6 +109,14 @@ footer {
 .profile {
   font-size: 18px;
   font-weight: 600;
+  display: inline-block;
+  border: none;
+  border-radius: 3px;
+  background-color: #4b5563;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: normal;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
 }
 
 .mainPage {
@@ -83,7 +130,8 @@ footer {
 }
 
 #heroPoster {
-  margin: 0 0 69px 0;
+  margin: 0 auto;
+  margin-bottom: 69px;
 }
 
 .nataly {
@@ -101,5 +149,40 @@ footer {
   font-size: 14px;
   line-height: 28px;
   opacity: 60%;
-  margin: 0 0 28px 0;
+}
+
+.search {
+  position: relative;
+  width: 224px;
+}
+
+.search input {
+  padding: 10px 49px;
+  font-size: 16px;
+  width: 224px;
+  margin-left: 326px;
+}
+
+.search img {
+  position: absolute;
+  left: 346px;
+  bottom: 14px;
+}
+
+.developer {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  margin-bottom: 28px;
+}
+
+.fullname {
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+footer {
+  margin-bottom: 72px;
 }

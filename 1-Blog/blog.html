@@ -5,27 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DZ-1</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <nav>
         <ul>
           <li><a href="#" class="profile">В</a></li>
-          <li><a href="#" class="mainPage">Мой Блог</a></li>
+          <li><a href="#" class="mainPage">Мой блог</a></li>
           <li><a href="#">HTML и CSS</a></li>
           <li><a href="#">Frontend</a></li>
           <li><a href="#">Backend</a></li>
         </ul>
-        <form action="#">
-          <div>
-            <img src="./search.svg" alt="Значок" />
-            <input
-              type="search"
-              id="search"
-              name="search"
-              placeholder="Поиск"
-            />
-          </div>
+        <form class="search" action="#">
+          <img src="./search.svg" alt="Значок" />
+          <input type="search" id="search" name="search" placeholder="Поиск" />
         </form>
       </nav>
     </header>
@@ -36,15 +35,19 @@
         >
         <h1>Теория цвета - Как цвет влияет на поведение потребителей</h1>
       </div>
-      <div>
-        <img
-          src="user-w-logo.png"
-          alt="Наталья Васильева - Разработчик"
-          class="devNat"
-        />
-        <p class="nataly">Наталья Васильева</p>
-        <p class="develop">Разработчик</p>
-      </div>
+      <section class="developer">
+        <div>
+          <img
+            src="user-w-logo.png"
+            alt="Наталья Васильева - Разработчик"
+            class="devNat"
+          />
+        </div>
+        <div class="fullname">
+          <div class="nataly">Наталья Васильева</div>
+          <div class="develop">Разработчик</div>
+        </div>
+      </section>
       <img
         src="poster.png"
         alt="Главное изображение страницы"
