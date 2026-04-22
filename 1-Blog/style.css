@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(135deg, #374151, #111827);
+  color: #ffffff;
+  margin: 0;
+  line-height: 100%;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  max-width: 1440px;
+  text-align: center;
+}
+
+ul a {
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 400;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 40px;
+}
+
+/* nav ul li:nth-child(2) {
+  margin-left: 11px;
+}
+
+nav ul li:nth-child(3) {
+  margin-left: 77px;
+}
+
+nav ul li:nth-child(4) {
+  margin-left: 52px;
+}
+
+nav ul li:nth-child(5) {
+  margin-left: 39px;
+} */
+
+nav {
+  padding: 72px 180px;
+  display: flex;
+}
+
+span {
+  margin: 0 0 14px 0;
+  font-size: 14px;
+  opacity: 60%;
+}
+
+p {
+  margin: 0 0 30px 0;
+  font-size: 16px;
+}
+
+input {
+  width: 224px;
+  height: 40px;
+  border-radius: 100px;
+  border-style: none;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 38px;
+  margin: 0 0 30px 0;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+
+h2,
+p {
+  max-width: 708px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+section {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+footer {
+  font-size: 16px;
+  opacity: 60%;
+  margin: 100px 0 0 0;
+}
+
+.profile {
+  font-size: 18px;
+  font-weight: 600;
+  display: inline-block;
+  border: none;
+  border-radius: 3px;
+  background-color: #4b5563;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: normal;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.mainPage {
+  font-size: 18px;
+}
+
+#search {
+  background-color: #1f293799;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+#heroPoster {
+  margin: 0 auto;
+  margin-bottom: 69px;
+}
+
+.nataly {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.devNat {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.develop {
+  font-size: 14px;
+  line-height: 28px;
+  opacity: 60%;
+}
+
+.search {
+  position: relative;
+  width: 224px;
+}
+
+.search input {
+  padding: 10px 49px;
+  font-size: 16px;
+  width: 224px;
+  margin-left: 326px;
+}
+
+.search img {
+  position: absolute;
+  left: 346px;
+  bottom: 14px;
+}
+
+.developer {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  margin-bottom: 28px;
+}
+
+.fullname {
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+footer {
+  margin-bottom: 72px;
+}

@@ -1,0 +1,31 @@
+:root {
+  --background-blue: #357efe;
+  --background-white: #ffffff;
+  --color-text-transp: #ffffffcc;
+  --color-border-b: #4e5d7c14;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-text-transp);
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

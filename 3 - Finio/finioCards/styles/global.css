@@ -1,0 +1,17 @@
+:root {
+  --color-text-p: #4e5d7c80;
+  --background-blue: #357efe;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

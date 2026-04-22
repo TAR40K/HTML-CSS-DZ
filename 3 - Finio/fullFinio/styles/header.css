@@ -1,0 +1,25 @@
+header {
+  background: var(--background-blue);
+}
+
+.header-wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 clamp(15px, 5vw, 200px);
+  padding-top: clamp(25px, 2vw, 40px);
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__ul {
+  color: var(--color-text-transp);
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+}
