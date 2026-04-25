@@ -7,7 +7,80 @@ button {
   line-height: 140%;
 }
 
+.section--white {
+  background: var(--background-white);
+}
+
+.section--blue {
+  background: var(--background-blue);
+}
+
 .button--white {
   background-color: var(--background-white);
   color: var(--background-blue);
+}
+
+.button--blue {
+  background-color: var(--background-blue);
+  color: var(--background-white);
+}
+
+.button--white:hover {
+  background: var(--color-hover-w);
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  padding-top: 120px;
+  color: var(--background-white);
+}
+
+.h2--black {
+  color: var(--color-black);
+}
+
+.text--17 {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140%;
+  color: var(--color-text);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 48px 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card--no-benefist {
+  padding-top: 93px;
+}
+
+.card__text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-bottom: 50px;
+}
+
+.card__text--32 {
+  padding-bottom: 32px;
+}
+
+.card__prices {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-evenly;
+  padding-bottom: 40px;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
 }
