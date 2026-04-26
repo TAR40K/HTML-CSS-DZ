@@ -9,7 +9,9 @@
   <body>
     <main>
       <h1>Регистрация</h1>
-      <div>Уже есть аккаунт? <a href="#">Войти</a></div>
+      <div class="has-account-container">
+        Уже есть аккаунт? <a href="#">Войти</a>
+      </div>
       <form action="#">
         <div>
           <input
@@ -26,20 +28,22 @@
           />
         </div>
         <div>
-          <input
-            type="text"
-            name="firstname"
-            id="firstname"
-            placeholder="Имя"
-            required
-          />
-          <input
-            type="text"
-            name="surname"
-            id="surname"
-            placeholder="Фамилия"
-            required
-          />
+          <div class="name">
+            <input
+              type="text"
+              name="firstname"
+              id="firstname"
+              placeholder="Имя"
+              required
+            />
+            <input
+              type="text"
+              name="surname"
+              id="surname"
+              placeholder="Фамилия"
+              required
+            />
+          </div>
         </div>
         <div>
           <input
