@@ -19,10 +19,6 @@ body {
   padding: 0;
 }
 
-* {
-  outline: 1px solid red !important;
-}
-
 html,
 body {
   height: 100%;
@@ -58,4 +54,3 @@ h3 {
   line-height: 120%;
   color: var(--background-white);
 }
-

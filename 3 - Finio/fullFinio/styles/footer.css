@@ -3,7 +3,6 @@
 }
 
 .footer-wrapper {
-  padding-top: clamp(25px, 2vw, 40px);
   padding-top: 80px;
   padding-bottom: 40px;
   display: grid;
